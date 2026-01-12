@@ -107,7 +107,7 @@ Outputs + Notifications + Audit Logs
 ## 🧠 LLM Strategy
 
 ### Primary Model
-- **Groq – llama-3.3-70b-versatile
+- Groq – llama-3.3-70b-versatile
 
 ### Fallbacks
 - OpenRouter (LLaMA 3.1 8B)
