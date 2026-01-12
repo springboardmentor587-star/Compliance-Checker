@@ -248,5 +248,3 @@ Feel free to fork this repository, raise issues, or submit pull requests.
 ⭐ **If you like this project, give it a star on GitHub!**
 
 ```
-
-```
