@@ -107,18 +107,11 @@ Outputs + Notifications + Audit Logs
 ## 🧠 LLM Strategy
 
 ### Primary Model
-- **Groq – LLaMA 3.3 70B**
+- **Groq – llama-3.3-70b-versatile
 
 ### Fallbacks
 - OpenRouter (LLaMA 3.1 8B)
 - Hard fallback JSON (never crashes)
-
-### GenAI Safety Measures
-- Temperature = `0.0`
-- Strict JSON-only outputs
-- Regex-based recovery
-- Deterministic rule-based enforcement
-- Human-in-the-loop philosophy
 
 ---
 
@@ -126,8 +119,8 @@ Outputs + Notifications + Audit Logs
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/ai-contract-compliance-checker.git
-cd ai-contract-compliance-checker
+git clone https://github.com/springboardmentor587-star/Compliance-Checker.git
+cd Compliance-Checker
 ````
 
 ### 2️⃣ Create Virtual Environment
@@ -160,8 +153,8 @@ EMAIL_APP_PASSWORD=your_app_password
 SLACK_WEBHOOK_URL=your_slack_webhook
 
 # Directories
-RAW_DIR=./raw
-OUTPUT_DIR=./results
+RAW_DIR=./data/raw
+OUTPUT_DIR=./data/processed
 
 # Chunking
 MAX_CHUNK_TOKENS=1500
@@ -228,34 +221,27 @@ http://localhost:8501
 * Continuous monitoring of active contracts
 * Cloud deployment with REST APIs
 
----
-
-## 🎓 Academic & Industry Use
-
-This project is suitable for:
-
-* Final Year / Capstone Projects
-* GenAI Portfolio
-* Compliance Automation POCs
-* LegalTech Demonstrations
 
 ---
 
 ## 📄 License
 
-This project is for **educational and research purposes**.
-For commercial use, ensure legal review and compliance validation.
+This project is licensed under the **MIT License**.
 
 ---
 
-## 🙌 Acknowledgements
 
-* Streamlit
-* Groq
-* OpenRouter
-* pdfplumber
-* ReportLab
-* Google Sheets API
+## 👥 Contributors
+
+- **Charan** – Project Lead & Mentor
+
+- **Student1** – Student Developer  
+- **Student2** – Student Developer  
+- **Student3** – Student Developer   
+- Open to community contributions 🚀  
+
+Feel free to fork this repository, raise issues, or submit pull requests.
+
 
 ---
 
@@ -263,13 +249,4 @@ For commercial use, ensure legal review and compliance validation.
 
 ```
 
----
-
-If you want next, I can:
-- Generate **`requirements.txt`**
-- Create **architecture diagram image**
-- Write **GitHub project description (short)**
-- Prepare **resume bullet points using this project**
-
-Just tell me 👍
 ```
