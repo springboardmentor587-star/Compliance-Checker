@@ -1,9 +1,3 @@
-Below is a **complete, professional, end-to-end `README.md`** that you can **directly copy and paste into your GitHub repository**.
-It is written like a **real industry-grade open-source project**, clear for evaluators, recruiters, and users.
-
----
-
-```md
 # 📜 AI-Powered Regulatory Compliance Checker for Contracts
 
 An end-to-end **Generative AI–driven system** that automatically reviews contracts, detects regulatory compliance risks (GDPR, HIPAA), identifies missing clauses, generates legally safe amendments, and provides real-time alerts and audit logs.
